@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:task_squad/Screen_2.dart';
-import 'app_screen.dart';
-import 'fav_screen.dart';
 import 'acc_screen.dart';
 class BottomNav extends StatefulWidget {
   const BottomNav({Key? key}) : super(key: key);
-
+//بةلاقىبنتةلا
   @override
   _BottomNavState createState() => _BottomNavState();
 }
 class _BottomNavState extends State<BottomNav> {
   int selectIndex=0;
-  var screens= [const HomeScreen(), const AppScreen(), const FavScreen(), const AccScreen()];
+  var screens= [const HomeScreen(), const AccScreen(), const AccScreen(), const AccScreen()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
